@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<license>
+  <signature>cT3/l/G/Yy9b9/mePNQe1+MR643ixinHYjn4zCPtFlz7LTboXi36nGMcj1rrciYJiJefRkLT1sA5TJHqD56QwzHMg22QcNKNS7maLZV4WvkPQ/bBGcvWFjQvDjCcb+oEJZqgTxV9nA+IJ0vhnew2QxMISaeMKS9ZZD5GifHFoXOCn/GVQtCD982IuCHYimZ/1XYavRO/LynnvG3R4moXVL+mCcwn4mePYGoe7Decrz88dQImFqDzZcuZ4+1Sqq9yiL1D/wQjojdZfVyCIeoDhQnrOzqg2hyQ39wb72YYx/3twSAU0FBrQ1TTpl7J+vIoYfMV9dL4C1KT66ChHXHpbw==</signature>
+  <payload>
+    <type>enterprise</type>
+    <group_id>Enterprise</group_id>
+    <quota>1</quota>
+    <max_violations>5</max_violations>
+    <window_period>30</window_period>
+    <creation_time>1649401200</creation_time>
+    <label>Splunk IT Service Intelligence Internal License DO NOT DISTRIBUTE</label>
+    <expiration_time>1672559999</expiration_time>
+    <features>
+      <feature>Auth</feature>
+      <feature>FwdData</feature>
+      <feature>LocalSearch</feature>
+      <feature>ScheduledSearch</feature>
+      <feature>Alerting</feature>
+      <feature>SplunkWeb</feature>
+    </features>
+    <add_ons>
+      <add_on name="itsi" type="app">
+        <parameter key="size" value="1000000"/>
+      </add_on>
+    </add_ons>
+    <sourcetypes/>
+    <guid>70442117-586A-4D3B-897E-AC00DAEF8B60</guid>
+  </payload>
+</license>

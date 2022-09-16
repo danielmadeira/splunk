@@ -48,6 +48,7 @@ This script is copying scripts in /Users/dmadeira/scripts/orca_prod/ and diag an
 
 4th
 0.3.ssh_orca.sh
+just sshing
 
 
 RUN DOCKER MACHINE (/home/ansible)

@@ -33,7 +33,7 @@ script for creation of a single instance
 2nd
 0.2.0.transfer_before_scp.sh
 Adjust this script's local username from Mac before use it in your machine.
-If you have download the diag and backup files recently this script will tail the last two entries for .zip (backup) and .tar.gz (diag) and work fine, otherwise adjust the tail -5
+If you have download the diag and backup files recently this script will tail the last two entries for .zip (backup) and .tar.gz (diag) and work fine, latest .zip and latest .tar.gz from Downloads
 
 
 3rd

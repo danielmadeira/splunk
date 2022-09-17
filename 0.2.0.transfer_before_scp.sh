@@ -1,6 +1,6 @@
 #!/bin/bash
-
-mkdir -p /Users/dmadeira/scripts/orca_prod/case/
+rm -rf /Users/dmadeira/scripts/orca_prod/case
+mkdir -p /Users/dmadeira/scripts/orca_prod/case
 MY_DIR="/Users/dmadeira/Downloads/"
 DEST="/Users/dmadeira/scripts/orca_prod/case/"
 FILEEXT="zip"

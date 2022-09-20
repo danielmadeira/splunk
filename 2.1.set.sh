@@ -17,3 +17,6 @@ sudo mkdir /tmp/myapps_backup
 sudo mkdir /tmp/diag_original
 sudo mkdir /tmp/myapps
 sudo mkdir /tmp/backup_original
+echo " please run source .bashrc"
+echo " "
+echo " next script to run is 2.2.extract_diag_backup.sh"

@@ -14,3 +14,5 @@ find . -name authorize.conf
 find . -name distsearch.conf
 find . -name limits.conf
 find . -name server.conf
+
+echo " next script 2.3.find_and_backup_problematic_files_and_apps.sh "

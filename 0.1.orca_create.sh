@@ -18,3 +18,5 @@ read g
 orca create --splunk-version "$a"."$b"."$c" --apps itsi:"$d"."$e"."$f" --prefix "$g" --labels retention_time=3456000
 
 orca -v show containers | egrep -v "INFO|DEBUG"
+
+echo " proceed to 0.2.0.transfer_before_scp.sh from your MAC terminal "

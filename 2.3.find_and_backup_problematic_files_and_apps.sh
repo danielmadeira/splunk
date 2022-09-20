@@ -1,4 +1,5 @@
 cd /tmp/diag/etc/apps
+echo " please select and insert the name of the apps you need to recreate to your new  orca instance . 23 apps can be copied at this time, but if less just skip by pressing enter "
 echo "app1"
 read a1
 echo "app2"
@@ -45,8 +46,9 @@ echo "app22"
 read a22
 echo "app23"
 read a23
-echo "23 is the max amount of apps this script supports"
+
 echo "please wait - duplicating needed apps from customer's diag to /tm/myapps and /tmp/myapps_backup"
 cp -rf "$a1" "$a2" "$a3" "$a4" "$a5" "$a6" "$a7" "$a8" "$a9" "$a10" "$a11" "$a12" "$a13" "$a14" "$a15" "$a16" "$a17" "$a18" "$a19" "$a20" "$a21" "$a22" "$a23"   /tmp/myapps
 cp -rf /tmp/myapps/* /tmp/myapps_backup
 cd /tmp/myapps
+echo " next script to run 2.4.rm_problematic_files_from_diag_apps.sh "

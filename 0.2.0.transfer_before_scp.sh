@@ -32,3 +32,4 @@ else
     cp -p "${NEWEST1}" "${DEST}"
 fi
 
+echo " proceed to 0.2.1scp_orca.sh from your MAC terminal "

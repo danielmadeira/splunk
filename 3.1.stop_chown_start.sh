@@ -8,4 +8,5 @@ cp /tmp/Splunk_ITSI_NFR* /opt/splunk/etc/licenses/enterprise/Splunk_ITSI_NFR_FY2
 sudo chown -R splunk: /opt/splunk
 sudo /opt/splunk/bin/splunk start
 
+echo " your license has been installed and your new setup has been issued . carry on working "
 echo "you still need to issue the backup: UI or https://docs.splunk.com/Documentation/ITSI/4.14.0/Configure/kvstorejson" 

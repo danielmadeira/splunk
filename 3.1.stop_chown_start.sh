@@ -6,4 +6,6 @@ cp -rf /opt/splunk/etc/apps/* /tmp/original_untouched_apps_splunk
 cp -rf /tmp/myapps/* /opt/splunk/etc/apps/
 cp /tmp/Splunk_ITSI_NFR* /opt/splunk/etc/licenses/enterprise/Splunk_ITSI_NFR_FY23\ 2H.xml.lic
 sudo chown -R splunk: /opt/splunk
-#sudo /opt/splunk/bin/splunk start
+sudo /opt/splunk/bin/splunk start
+
+echo "you still need to issue the backup: UI or https://docs.splunk.com/Documentation/ITSI/4.14.0/Configure/kvstorejson" 

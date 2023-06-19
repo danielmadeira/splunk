@@ -1,3 +1,4 @@
+sudo apt-get update
 sudo apt-get install less -y
 sudo apt-get install vim -y
 sudo apt-get install zip -y

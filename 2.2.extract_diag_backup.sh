@@ -1,3 +1,4 @@
+cd /tmp
 tar -xzf *.tar.gz
 mv diag-*/* /tmp/diag
 cp -rf diag/* /tmp/diag_original
